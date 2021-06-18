@@ -189,13 +189,43 @@ label {
     line-height: 50px;
     border-bottom: 1px solid grey;
     text-align: center;
-
 }
 
 .conte-col {
     width: 100%;
-    padding: 20px;
+    padding: 40px;
 }
+
+.prezzo {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grey {
+    margin-top: 15px;
+    font-size: 15px;
+    color: grey;
+}
+
+.utente {
+    margin-top: 100px;
+}
+
+.utente .fa-user {
+    font-size: 15px;
+}
+
+.fas {
+    font-size: 15px;
+}
+
+.tb, .matita {
+    margin-top: 30px;
+}
+
+
+
 
 /* fine seconda section  */
 
