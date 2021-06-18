@@ -23,7 +23,7 @@ body {
 }
 
 .sx {
-    width: 30%;
+    width: 70%;
     height: 80px;
     float: right;
     text-align: right;
@@ -45,8 +45,160 @@ body {
 }
 
 #special-botton {
-    background-color: #0061FF;
+    background-color: #0061ff;
     color: white;
     padding: 6px 15px;
 }
 /* fine header */
+
+/* main */
+
+/* prima section  */
+
+.jumbo {
+    height: 800px;
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.w-90 {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    height: 200px; 
+    padding-top: 20px;
+    padding-left: 50px;
+    /* background-color: magenta; */
+}
+
+h1 {
+    font-size: 75px;
+    line-height: 90px;
+    /* letter-spacing: 2px;
+    word-spacing: 20px; */
+}
+
+.pay-off {
+    height: 600px;
+    width: 30%;
+    float: left;
+    display: inline;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    /* background-color: maroon; */
+}
+
+.jumbo-box {
+    height: 600px;
+    width: 70%;
+    float: left;
+    display: inline;
+    margin-top: 30px;
+    text-align: center;
+    /* background-color:mediumorchid */
+}
+
+.jumbo-box img {
+    height: 100%;
+    margin-top: 50px;
+}
+
+.special-botton {
+    background-color: #0061ff;
+    color: white;
+    width: 250px;
+    padding: 6px;
+    text-align: center;
+}
+
+.prova-gratuita {
+    margin-top: 30px;
+}
+
+.annulla {
+    margin-top: 30px;
+}
+
+.fa-arrow-down {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+/* fine prima section  */
+/* ------------------------------------------------------------------------------------------ */
+/* seconda section  */
+
+.w-80 {
+    width: 80%;
+    /* background-color: mediumorchid; */
+    margin: 0 auto;
+    padding-top: 200px;
+    /* font-size: 30px; */
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.scelta {
+    margin-top: 50px;
+}
+
+label {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.colonne {
+    width: 100%;
+    margin-top: 50px;
+    /* background-color: midnightblue; */
+    height: 200px;
+}
+
+.colonna {
+    width: 30%;
+    /* background-color: olive; */
+    border: 1px solid grey;
+    float: left;
+    font-size: 20px;
+}
+
+.sinistra {
+  
+}
+
+.cen {
+    margin-left: 5%;
+}
+
+.destra {
+    float: right;
+}
+
+.far {
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.icone {
+    line-height: 50px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+
+}
+
+.conte-col {
+    width: 100%;
+    padding: 20px;
+}
+
+/* fine seconda section  */
+
+
+/* fine main */
+
