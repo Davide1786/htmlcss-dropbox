@@ -20,6 +20,9 @@ body {
     width: 100%;
     height: 80px;
     border-bottom: 1px solid lightgray;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
 }
 
 .dx {
@@ -65,6 +68,7 @@ body {
     height: 800px;
     width: 100%;
     background-color: #b4d0e7;
+    padding-top: 150px;
 }
 
 .w-90 {
@@ -75,16 +79,13 @@ body {
 
 .title {
     height: 200px; 
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 50px;
-    /* background-color: magenta; */
 }
 
 h1 {
     font-size: 75px;
     line-height: 90px;
-    /* letter-spacing: 2px;
-    word-spacing: 20px; */
 }
 
 .pay-off {
@@ -95,7 +96,10 @@ h1 {
     margin-top: 30px;
     padding-top: 50px;
     padding-left: 50px;
-    /* background-color: maroon; */
+}
+
+.pay-off p {
+    line-height: 25px;
 }
 
 .jumbo-box {
@@ -103,14 +107,11 @@ h1 {
     width: 70%;
     float: left;
     display: inline;
-    margin-top: 30px;
     text-align: center;
-    /* background-color:mediumorchid */
 }
 
 .jumbo-box img {
     height: 100%;
-    margin-top: 50px;
 }
 
 .special-botton {
@@ -142,7 +143,6 @@ h1 {
     width: 80%;
     margin: 0 auto;
     padding-top: 200px;
-    /* background-color: blueviolet; */
 }
 
 h2 {
@@ -161,21 +161,15 @@ label {
 .colonne {
     width: 100%;
     margin-top: 50px;
-    /* background-color: midnightblue; */
     height: 200px;
 }
 
 .colonna {
     width: 30%;
     height: 1400px;
-    /* background-color: olive; */
     border: 1px solid grey;
     float: left;
     font-size: 20px;
-}
-
-.sinistra {
-  
 }
 
 .cen {
@@ -229,6 +223,7 @@ label {
 
 .tb, .matita {
     margin-top: 30px;
+    line-height: 35px;
 }
 
 .gratis {
@@ -248,7 +243,6 @@ a {
 
 .acquista {
     margin-top: 50px;
-    /* border-bottom: 1px solid grey; */
 }
 
 .acquista a {
@@ -280,7 +274,6 @@ hr {
 .col-2 {
     width: 100%;
     height: 300px;
-    /* background-color: olive; */
     border: 1px solid grey;
     display: inline-block;
     margin-top: 50px;
@@ -291,7 +284,6 @@ hr {
 .conte {
     width: 100%;
     height: 100%;
-    /* background-color: hotpink; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -361,7 +353,6 @@ hr {
     width: 100%;
     height: 100%;
     padding: 100px;
-    /* background-color: coral; */
 }
 
 .entra {
@@ -371,11 +362,358 @@ hr {
 .trova {
     margin-top: 50px;
     font-size: 20px;
+    line-height: 35px;
+}
+
+.trova-partner {
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trova-partner a {
+    color: black;
 }
 /* fine terza section  */
+/* ---------------------------------------------------------------------------------------- */
+/* quarta section  */
+
+.quarta {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.box-container {
+    height: 100%;
+    width: 100%;
+}
+
+.immagini {
+    width: calc(100% / 3);
+    display: inline-block;
+    float: left;
+    padding-top: 50px;
+}
+
+.fotobox {
+    height: 50%;
+    text-align: center;
+}
+
+.immagini img {
+    height: 300px;
+}
+
+.passa {
+    margin-top: 50px;
+    font-size: 25px;
+}
+.porta {
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+.team {
+    margin-top: 250px;
+}
+
+.scopriblu {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.scopriblu a {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+/* fine quarta section  */
+/* ----------------------------------------------------------------------------------------- */
+/* quinta section */
+
+.quinta {
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #b4d0e7;
+}
+
+.wrap {
+    height: 500px;
+    margin: 0 auto;
+}
+
+.loghi {
+    background-color: cornsilk;
+    height: 100%;
+    width: 30%;
+    display: inline;
+    float: left;  
+    position: relative;
+}
+
+.designit {
+    background-color: #f5f5f5;
+    height: 100%;
+    width: 40%;
+    display: inline;
+    float: left;  
+    padding: 50px;
+}
+
+.logodesign {
+    width: 100%;
+    height: 20%;
+}
+
+.logodesign img {
+    height: 70%;
+}
+
+.bordocorto {
+    width: 80px;
+}
+
+.membri, .tomas {
+    padding-top: 50px;
+}
 
 
+.alt-sx {
+    width: 50%;
+    height: 50%;
+    background-color: #a2d39b;
+    position: absolute;
+}
 
+.alt-dx {
+    width: 50%;
+    height: 50%;
+    background-color: #61082b;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.bas-sx {
+    width: 50%;
+    height: 50%;
+    background-color: #0093ce;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bas-dx {
+    width: 50%;
+    height: 50%;
+    background-color: #ff1c1c;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.diviso {
+    padding: 50px;
+    margin-top: 0 auto;
+    text-align: center;
+}
+
+.diviso img {
+    max-width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.destri .alt-sx {
+    background-color: #d5001f;
+}
+
+.destri .alt-dx {
+    background-color: #b4d0e7;
+}
+
+.destri .bas-sx {
+    background-color: #0d2481;
+}
+
+.destri .bas-dx {
+    background-color: #ffd830;
+}
+
+.business {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.busi {
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.portadp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 25px;
+    color: #61082B;
+}
+
+.uno {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.due {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.inizia a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+}
+/* fine quinta section */
+/* ---------------------------------------------------------------------------------- */
+ /* inzio sesta section */
+
+.domande {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+
+.faq {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+    /* background-color: blueviolet; */
+}
+
+.faq h3 {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.differenza {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 30px 0;
+    font-weight: bold; 
+}
+
+.differenza .fa-check {
+    color: black;
+    float: right;
+}
+ /* fine sesta section */
 
 /* fine main */
+
+/* footer */
+
+.footer {
+    height: 500px;
+    width: 100%;
+    margin-top: 150px ;
+    background-color:black;
+    position: relative;
+}
+
+#contfooter {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dropboxx, .prodoct, .azienda, .supporto, .community {
+    float: left;
+    width: calc(100% / 5);
+    position: relative;
+    height: 400px;
+}
+
+#navigazione {
+    position:absolute;
+    width: 100%;
+    padding: 100px;
+}
+
+#navigazione li{
+    line-height: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li a {
+    color: white;
+}
+
+.gra a {
+    color: white;
+    font-weight: bold;
+}
+
+#mondo {
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    margin: 0 auto;
+    position: absolute;
+}
+.mondo {
+    position: absolute;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    margin-left: 100px;
+    color: white;
+}
+
+.fa-caret-up {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* fine footer */
+
 
