@@ -9,11 +9,29 @@ body {
     width: 100%;
 }
 
+/* common */
 .clearfix {
     content: "";
     display: table;
     clear: both;
 }
+
+#w100 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#w80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#w70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* fine common */
 
 /* header */
 .bar-nav {
@@ -26,16 +44,11 @@ body {
 }
 
 .dx {
-    width: 30%;
-    height: 80px;
     float: left;
 }
 
 .sx {
-    width: 70%;
-    height: 80px;
     float: right;
-    text-align: right;
 }
 
 .nav li {
@@ -68,50 +81,32 @@ body {
     height: 800px;
     width: 100%;
     background-color: #b4d0e7;
-    padding-top: 150px;
-}
-
-.w-90 {
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
 }
 
 .title {
-    height: 200px; 
-    padding-top: 50px;
-    padding-left: 50px;
-}
-
-h1 {
-    font-size: 75px;
+    padding-top: 100px;
+    font-size: 55px;
     line-height: 90px;
 }
 
 .pay-off {
     height: 600px;
-    width: 30%;
+    max-width: 30%;
     float: left;
-    display: inline;
-    margin-top: 30px;
     padding-top: 50px;
-    padding-left: 50px;
-}
-
-.pay-off p {
     line-height: 25px;
 }
 
 .jumbo-box {
     height: 600px;
-    width: 70%;
-    float: left;
-    display: inline;
-    text-align: center;
+    max-width: 70%;
+    float: right;
+    padding-top: 50px;
+    text-align: right;
 }
 
 .jumbo-box img {
-    height: 100%;
+    max-height: 100%;
 }
 
 .special-botton {
@@ -120,9 +115,6 @@ h1 {
     width: 250px;
     padding: 6px;
     text-align: center;
-}
-
-.prova-gratuita {
     margin-top: 30px;
 }
 
@@ -130,23 +122,19 @@ h1 {
     margin-top: 30px;
 }
 
-.fa-arrow-down {
-    margin-top: 30px;
+.pay-off i {
     font-size: 40px;
+    color: white;
+    margin-top: 30px;
 }
 
 /* fine prima section  */
 /* ------------------------------------------------------------------------------------------ */
 /* seconda section  */
 
-.w-80 {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 200px;
-}
-
-h2 {
+.titolo-dropbox h2 {
     font-size: 50px;
+    padding-top: 100px;
 }
 
 .scelta {
@@ -161,28 +149,18 @@ label {
 .colonne {
     width: 100%;
     margin-top: 50px;
-    height: 200px;
 }
 
 .colonna {
     width: 30%;
-    height: 1400px;
+    min-height: 1200px;
     border: 1px solid grey;
     float: left;
     font-size: 20px;
 }
 
 .cen {
-    margin-left: 5%;
-}
-
-.destra {
-    float: right;
-}
-
-.far {
-    padding-right: 15px;
-    font-size: 20px;
+    margin: 0 5%;
 }
 
 .icone {
@@ -193,6 +171,7 @@ label {
 
 .conte-col {
     width: 100%;
+    min-height: 1200px;
     padding: 40px;
 }
 
@@ -208,22 +187,31 @@ label {
     color: grey;
 }
 
-.utente {
-    margin-top: 100px;
+.fa-li {
+    margin-left: -20px;
 }
 
-.utente .fa-user {
-    font-size: 15px;
+.fa-ul li {  
+    list-style-type: none;
+    margin-top: 40px;
 }
 
-.fas {
-    font-size: 15px;
-    margin-right: 15px;
-}
-
-.tb, .matita {
+.byte {
     margin-top: 30px;
-    line-height: 35px;
+    width: 100%;
+    position: relative;
+}
+
+.byte i {
+    width: 10%;
+    display: inline-block;
+    float: left;
+}
+
+.tb, .matita, .utente {
+    float: left;
+    display: inline-block;
+    width: 90%;
 }
 
 .gratis {
@@ -233,8 +221,8 @@ label {
     padding: 6px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 100px;
-}
+    margin-top: 50px;
+}  
 
 a {
     text-decoration: none;
@@ -248,6 +236,7 @@ a {
 .acquista a {
     text-decoration: none;
     color: #0061ff;
+    margin-top: 50px;
 }
 
 hr {
@@ -265,12 +254,7 @@ hr {
 .fa-check {
     color: #0061ff ;
 }
-
-.punti li {
-    list-style-type: none;
-    margin-top: 50px;
-}
-
+/* ------------------------------ */
 .col-2 {
     width: 100%;
     height: 300px;
@@ -279,7 +263,6 @@ hr {
     margin-top: 50px;
     position: relative;
 }
-
 
 .conte {
     width: 100%;
@@ -318,10 +301,10 @@ hr {
 /*  terza section  */
 
 .wid {
-    width: 80%;
+    width: 100%;
     height: 700px;
     margin: 0 auto;
-    margin-top: 500px;
+    margin-top: 100px;
 }
 
 .partner {
@@ -334,7 +317,6 @@ hr {
     height: 100%;
     width: 100%; 
 }
-
 
 .fot-par {
     height: 100%;
@@ -376,15 +358,10 @@ hr {
 .trova-partner a {
     color: black;
 }
+
 /* fine terza section  */
 /* ---------------------------------------------------------------------------------------- */
 /* quarta section  */
-
-.quarta {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 150px;
-}
 
 .box-container {
     height: 100%;
@@ -392,8 +369,7 @@ hr {
 }
 
 .immagini {
-    width: calc(100% / 3);
-    display: inline-block;
+    width: calc(100% / 3);  
     float: left;
     padding-top: 50px;
 }
@@ -419,7 +395,7 @@ hr {
 }
 
 .team {
-    margin-top: 250px;
+    margin-top: 100px;
 }
 
 .scopriblu {
@@ -438,7 +414,7 @@ hr {
 
 .quinta {
     height: 800px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: #b4d0e7;
 }
@@ -449,10 +425,8 @@ hr {
 }
 
 .loghi {
-    background-color: cornsilk;
     height: 100%;
     width: 30%;
-    display: inline;
     float: left;  
     position: relative;
 }
@@ -461,7 +435,6 @@ hr {
     background-color: #f5f5f5;
     height: 100%;
     width: 40%;
-    display: inline;
     float: left;  
     padding: 50px;
 }
@@ -483,54 +456,46 @@ hr {
     padding-top: 50px;
 }
 
-
-.alt-sx {
+.alt-sx, .alt-dx, .bas-dx, .bas-sx {
     width: 50%;
     height: 50%;
+    float: left;
+    position: relative;
+}
+
+.sinistri .alt-sx {
     background-color: #a2d39b;
-    position: absolute;
+    border: 30px solid #d0e9cd;
+    padding: 10px;
 }
 
-.alt-dx {
-    width: 50%;
-    height: 50%;
+.sinistri .alt-dx {
     background-color: #61082b;
-    position: absolute;
-    top:0;
-    right: 0;
 }
 
-.bas-sx {
-    width: 50%;
-    height: 50%;
+.sinistri .bas-sx {
     background-color: #0093ce;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 
-.bas-dx {
-    width: 50%;
-    height: 50%;
+.sinistri .bas-dx {
     background-color: #ff1c1c;
-    position: absolute;
-    right: 0;
-    bottom: 0;
 }
 
 .diviso {
+    width: 50%;
+    height: 50%;
     padding: 50px;
     margin-top: 0 auto;
     text-align: center;
 }
 
 .diviso img {
-    max-width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    filter: invert(1);
+    width: 8vw;
+    filter: invert(1);   
 }
 
 .destri .alt-sx {
@@ -553,16 +518,13 @@ hr {
     width: 100%;
     height: 300px;
     margin: 0 auto;
-    position: relative;
 }
 
-.busi {
-    height: 150px;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
+.uno, .due {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
 }
 
 .portadp {
@@ -570,29 +532,19 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    font-size: 25px;
-    color: #61082B;
+    font-size: 35px;
+    color: #61082B;  
 }
 
-.uno {
-    width: 50%;
-    height: 100%;
-    float: left;
-    position: relative;
-}
-
-.due {
-    width: 50%;
-    height: 100%;
-    float: right;
-    position: relative;
-}
-
-.inizia a {
+.inizia {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    font-size: 20px;
+}
+
+.inizia a {
     background-color: white;
     color: black;
     width: 250px;
@@ -608,7 +560,6 @@ hr {
     width: 80%;
     height: 500px;
     margin: 0 auto;
-    /* background-color: blue; */
 }
 
 .faq {
@@ -616,8 +567,6 @@ hr {
     height: 100%;
     margin: 0 auto;
     padding-top: 100px;
-    
-    /* background-color: blueviolet; */
 }
 
 .faq h3 {
@@ -645,29 +594,21 @@ hr {
 .footer {
     height: 500px;
     width: 100%;
-    margin-top: 150px ;
     background-color:black;
     position: relative;
-}
-
-#contfooter {
-    width: 85%;
-    height: 100%;
-    margin: 0 auto;
-    position: relative;
+    margin-top: 100px;
 }
 
 .dropboxx, .prodoct, .azienda, .supporto, .community {
     float: left;
     width: calc(100% / 5);
-    position: relative;
-    height: 400px;
+    height: 400px;   
+    padding-top: 100px;
 }
 
 #navigazione {
     position:absolute;
     width: 100%;
-    padding: 100px;
 }
 
 #navigazione li{
@@ -696,23 +637,12 @@ li a {
     position: absolute;
     border-top: 1px solid white;
     padding-top: 20px;
-    margin-left: 100px;
     color: white;
 }
 
 .fa-caret-up {
     margin-left: 5px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* fine footer */
 
